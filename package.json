@@ -1,0 +1,18 @@
+{
+  "name": "project_Golestan_Tea",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx  tailwindcss -i ./public/tailwind/tailwind.css -o ./public/css/main.css --watch",
+    "typescript": "npx tsc typescript ./public/typescript/main.ts --outdir ./public/js --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0"
+  }
+}
