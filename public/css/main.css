@@ -1441,7 +1441,7 @@ video {
 @font-face {
   font-family: "IranSansLight";
 
-  src: url(../fonts/IRANSansLight.ttf), format("ttf");
+  src: url(../font/IRANSansLight.ttf), format("ttf");
 }
 
 body {
